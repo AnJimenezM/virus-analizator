@@ -1,34 +1,32 @@
 import express from 'express';
-import multer from'multer';
+import multer from 'multer';
 import axios from 'axios';
-import fs   from  'fs';
-import bodyParser from 'body-parser'
-import FormData  from  'form-data';
-import cors   from 'cors';
-import env from  'dotenv';
-import UserRoutes from './routes/user.js'
-import database from'./database/conexion.js';
-import {dirname} from 'path'
+import fs from 'fs';
+import bodyParser from 'body-parser';
+import FormData from 'form-data';
+import cors from 'cors';
+import env from 'dotenv';
+import UserRoutes from './routes/user.js';
+import database from './database/conexion.js';
+import { dirname } from 'path';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
-//Configuar el servidor de node
+// Configurar el servidor de node
 const app = express();
 const puerto = env.PORT || 3000;
 
-//Mensaje si ejecuta correctamente el servidor de node
+// Mensaje si ejecuta correctamente el servidor de node
+console.log("Servidor de node en ejecución");
 
-console.log("Servidor de node en ejecucion")
-
-//conexion a la base de datos
-
+// Conexión a la base de datos
 database();
 
 // Middleware para CORS
 app.use(cors({
   origin: '*',
   methods: 'GET, HEAD, PUT, PATCH, POST, DELETE',
-  preflightContinue:false,
+  preflightContinue: false,
   optionsSuccessStatus: 204
 }));
 
@@ -63,8 +61,16 @@ app.post('/upload', upload.single('file'), async (req, res) => {
     // Esperar a que el análisis esté completo y obtener el informe completo
     const analysisResult = await getAnalysisResult(apiKey, analysisId);
 
-    res.json({ message: 'Archivo analizado', data: analysisResult });
+    // Eliminar el archivo después del análisis
+    fs.unlink(file.path, (err) => {
+      if (err) {
+        console.error('Error al eliminar el archivo:', err);
+      } else {
+        console.log('Archivo eliminado:', file.path);
+      }
+    });
 
+    res.json({ message: 'Archivo analizado y eliminado', data: analysisResult });
 
   } catch (error) {
     console.error('Error al analizar el archivo:', error.message);
@@ -99,28 +105,26 @@ async function getAnalysisResult(apiKey, analysisId) {
     return analysisResult;
   } catch (error) {
     console.error('Error al obtener los resultados del análisis:', error.response?.data || error.message);
-    return { error: 'Error retrieving analysis results ' };
+    return { error: 'Error retrieving analysis results' };
   }
 }
 
-app.post('/uploads', (req, res)=>{
-  setTimeout(()=>{
-    res.json({data: 'Resultados del analisis'});
+app.post('/uploads', (req, res) => {
+  setTimeout(() => {
+    res.json({ data: 'Resultados del análisis' });
   }, 1000);
 });
 
-//Servidor en ejecucion en el puerto correspondiente
+// Servidor en ejecución en el puerto correspondiente
 app.listen(puerto, () => {
   console.log(`Servidor escuchando en http://localhost:${puerto}`);
 });
 
-//Decodificar los datos desde los formularios js
-
+// Decodificar los datos desde los formularios js
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.urlencoded({ extended: true }));
 
-//configurar rutas del aplicativo
-
+// Configurar rutas del aplicativo
 app.use('/api/user', UserRoutes);
 
 const __filename = fileURLToPath(import.meta.url);
@@ -128,3 +132,4 @@ const __dirname = dirname(__filename);
 
 // Configuración para servir archivos estáticos (imágenes de avatar)
 app.use('/upload/avatars', express.static(path.join(__dirname, 'upload', 'avatars')));
+
