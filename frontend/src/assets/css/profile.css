@@ -1,4 +1,8 @@
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 .profile{
     position: absolute;
     right: 87%;
@@ -140,7 +144,7 @@
     .submenu {
        
        position: absolute;
-       left: 770px;
+       left: 760px;
     }
 
     .form-config{
@@ -170,7 +174,7 @@
     .submenu {
        
        position: absolute;
-       left: 190px;
+       left: 710px;
     }
 
     .form-config{
@@ -197,7 +201,7 @@
     .submenu {
        
        position: absolute;
-       left: 190px;
+       left: 640px;
     }
     .form-config{
         display: flex;
@@ -228,7 +232,7 @@
     .submenu {
        
        position: absolute;
-       left: 190px;
+       left: 590px;
     }
    
 
@@ -561,6 +565,12 @@
       
       
     } 
+
+    .menu{
+        position: relative;
+        left: 37px;
+        top: 69px;
+    }
 
     .android{
         position: absolute;
