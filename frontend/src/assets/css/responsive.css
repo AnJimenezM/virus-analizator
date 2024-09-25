@@ -1,0 +1,1091 @@
+
+
+
+/* Estilos de la pantalla para pantallas grandes  */
+
+@media screen and (max-width:1440px) {
+  
+    .title{
+      position: -ms-page;
+      left: 590px;
+    }
+    
+    .menu{
+      display: flex;
+      margin-left: 60px;
+    }
+    
+    .file{
+      display: block;
+      margin-left: 520px;
+    }
+    
+     
+    
+    .image-about{
+     
+      width: 1440px;
+      height: 500px;
+      
+    }
+    
+    .title-about{
+      position: absolute;
+      left: 410px;
+    }
+    .text-one{
+      position: absolute;
+      left: 300px;
+    }
+    
+    h2{
+      position: absolute;
+      left: 1030px;
+    }
+    
+    .text-two{
+      position: absolute;
+      left: 900px;
+      top: 580px;
+    }
+    
+    .title-login{
+      position: -ms-page;
+      left: 630px;
+    
+    }
+    .formulario{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 570px;
+    
+    }
+    
+    .title-register{
+      position: -ms-page;
+      top: 150px;
+      left: 640px;
+    }
+    
+    .formulario-register{
+      display: flex;
+      margin-left: 350px;
+    }
+    
+    }
+    
+    /* Estilos de la pantalla para pantallas grandes  */
+    
+    @media screen and (max-width: 1325px) {
+      
+      .title{
+        position: -ms-page;
+        left: 540px;
+      }
+      
+      .menu{
+        display: flex;
+        margin-left: 70px;
+      }
+      
+      .file{
+        display: block;
+        margin-left: 470px;
+      }
+      
+       
+      
+      .image-about{
+       
+        width: 1325px;
+        height: 500px;
+        
+      }
+      
+      .title-about{
+        position: absolute;
+        left: 358px;
+      }
+      .text-one{
+        position: absolute;
+        left: 250px;
+      }
+      
+      h2{
+        position: absolute;
+        left: 930px;
+      }
+      
+      .text-two{
+        position: absolute;
+        left: 800px;
+        top: 580px;
+      }
+      
+      .title-login{
+        position: -ms-page;
+        left: 560px;
+      
+      }
+      .formulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 500px;
+      
+      }
+      
+      .title-register{
+        position: -ms-page;
+        top: 150px;
+        left: 580px;
+      }
+      
+      .formulario-register{
+        display: flex;
+        margin-left: 300px;
+      }
+      
+    }
+    
+    /* Estilos de la pantalla para pantallas grandes  */
+    
+    @media screen and (max-width: 1200px) {
+      .title{
+        position: -ms-page;
+        left: 480px;
+      }
+      
+      .menu{
+        display: flex;
+        margin-left: 70px;
+      }
+      
+      .file{
+        display: block;
+        margin-left: 400px;
+      }
+      
+       .icon-file{
+        display: flex;
+        margin-left: 525px;
+       }
+      
+      .image-about{
+       
+        width: 1200px;
+        height: 500px;
+        
+      }
+      
+      .title-about{
+        position: absolute;
+        left: 300px;
+      }
+      .text-one{
+        position: absolute;
+        left: 180px;
+      }
+      
+      h2{
+        position: absolute;
+        left: 850px;
+      }
+      
+      .text-two{
+        position: absolute;
+        left: 720px;
+        top: 580px;
+      }
+      
+      .title-login{
+        position: -ms-page;
+        left: 500px;
+      
+      }
+      .formulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 440px;
+      
+      }
+      
+      .title-register{
+        position: -ms-page;
+        top: 150px;
+        left: 530px;
+      }
+      
+      .formulario-register{
+        display: flex;
+        margin-left: 250px;
+      }
+    }
+    
+    /* Estilos de la pantalla para pantallas laptop medianos */
+    
+    @media screen and (max-width:1100px) {
+      .title{
+        position: -ms-page;
+        left: 440px;
+      }
+      
+      
+      
+      .file{
+        display: block;
+        margin-left: 350px;
+      }
+      
+       .icon-file{
+        display: flex;
+        margin-left: 480px;
+       }
+      
+      .image-about{
+       
+        width: 1100px;
+        height: 500px;
+        
+      }
+      
+      .title-about{
+        position: absolute;
+        left: 250px;
+      }
+      .text-one{
+        position: absolute;
+        left: 140px;
+      }
+      
+      h2{
+        position: absolute;
+        left: 750px;
+      }
+      
+      .text-two{
+        position: absolute;
+        left: 620px;
+        top: 580px;
+      }
+      
+      .title-login{
+        position: -ms-page;
+        left: 460px;
+      
+      }
+      .formulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 380px;
+      
+      }
+      
+      .title-register{
+        position: -ms-page;
+        top: 150px;
+        left: 470px;
+      }
+      
+      .formulario-register{
+        display: flex;
+        margin-left: 180px;
+      }
+    }
+    
+    /* Estilos de la pantalla para pantallas de laptop */
+    
+    @media screen and (max-width:1024px){
+      .title{
+        position: -ms-page;
+        left: 395px;
+      }
+      
+      .menu{
+        display: flex;
+        margin-left: 60px;
+      }
+      
+      .file{
+        display: block;
+        margin-left: 300px;
+      }
+      
+       .icon-file{
+        display: flex;
+        margin-left: 440px;
+       }
+      
+      .image-about{
+       
+        width: 1024px;
+        height: 500px;
+        
+      }
+      
+      .title-about{
+        position: absolute;
+        left: 200px;
+      }
+      .text-one{
+        position: absolute;
+        left: 80px;
+      }
+      
+      h2{
+        position: absolute;
+        left: 650px;
+      }
+      
+      .text-two{
+        position: absolute;
+        left: 514px;
+        top: 580px;
+      }
+      
+      .title-login{
+        position: -ms-page;
+        left: 420px;
+      
+      }
+      .formulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 350px;
+      
+      }
+      
+      .title-register{
+        position: -ms-page;
+        left: 430px;
+      }
+      
+      .formulario-register{
+        display: flex;
+        margin-left: 120px;
+      }
+    
+    
+    }
+    
+    /* Estilos de la pantalla para tabletas  */
+    
+    @media screen and (max-width:900px) {
+      .title{
+        position: -ms-page;
+        left: 300px;
+      }
+      
+      
+      
+      .file{
+        display: block;
+        margin-left: 210px;
+      }
+      
+       .icon-file{
+        display: flex;
+        margin-left: 350px;
+       }
+      
+      .image-about{
+       
+        width: 900px;
+        height: 500px;
+        
+      }
+
+      .menu{
+        position: relative;
+        right: 30px;
+      }
+      
+      .title-about{
+        position: absolute;
+        left: 190px;
+      }
+      .text-one{
+        position: absolute;
+        left: 70px;
+      }
+      
+      h2{
+        position: absolute;
+        left: 630px;
+      }
+      
+      .text-two{
+        position: absolute;
+        left: 500px;
+        
+      }
+      
+      .title-login{
+        position: -ms-page;
+        left: 360px;
+      
+      }
+      .formulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 290px;
+      
+      }
+      
+      .title-register{
+        position: -ms-page;
+        top: 150px;
+        left: 370px;
+      }
+      
+      .formulario-register{
+        display: flex;
+        margin-left: 70px;
+      }
+    }
+    /* Estilos de la pantalla para tabletas   */
+    @media screen and (max-width:800px){
+    
+      .android{
+        display: flex;
+        position: absolute;
+       width: 50px;
+       top: 25px;
+       left: 655px;
+        color: white;
+        
+      }
+    
+    
+      .android:hover{
+        color: rgb(51, 255, 0);
+      }
+    
+        
+       
+       .menu{
+        display: grid;
+        grid-template-columns: min-content;
+        position: absolute;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-style: solid;
+        left: 506px;
+        width: 234px;
+        height: 330px;
+        display: none;
+        background-color: rgb(44, 44, 44);
+        top: 78px;
+        z-index: 1;
+        
+       
+    
+       }
+      
+       .menu li {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        height: 110px;
+       }
+        
+        .android:hover + .menu{
+          display: block;
+        }
+          
+          
+          .menu.active{
+            display: block;
+          }
+    
+          .title{
+            position: -ms-page;
+            left: 280px;
+          }
+          
+          
+          
+          .file{
+            display: block;
+            margin-left: 200px;
+          }
+          
+           .icon-file{
+            display: flex;
+            margin-left: 330px;
+           }
+          
+          .image-about{
+           
+            width: 800px;
+            height: 500px;
+            
+          }
+          
+          .title-about{
+            position: absolute;
+            left: 350px;
+          }
+          .text-one{
+            position: absolute;
+            left: 210px;
+          }
+          
+          h2{
+            position: absolute;
+            left: 350px;
+            top: 170%;
+          }
+          
+          .text-two{
+            position: absolute;
+            left: 210px;
+            top: 180%;
+            
+          }
+          
+          .title-login{
+            position: -ms-page;
+            left: 320px;
+          
+          }
+          .formulario{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 240px;
+          
+          }
+          
+          .title-register{
+            position: -ms-page;
+            left: 310px;
+          }
+          
+          .formulario-register{
+            display: flex;
+            margin-left: 20px;
+          }
+      
+    }
+    
+    /* Estilos de la pantalla para pantallas moviles grandes  */
+    
+    @media screen and (max-width:768px) {
+      .title{
+        position: -ms-page;
+        left: 250px;
+      }
+      
+      .android{
+        display: block;
+        margin-left: -30px;
+      }
+      .menu{
+        position: absolute;
+        left: 474px;
+      }
+      
+      .file{
+        display: block;
+        margin-left: 160px;
+      }
+      
+       .icon-file{
+        display: flex;
+        margin-left: 290px;
+       }
+      
+      .image-about{
+       
+        width: 768px;
+        height: 500px;
+        
+      }
+      
+      
+      
+      .title-login{
+        position: -ms-page;
+        left: 300px;
+      
+      }
+      .formulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 220px;
+      
+      }
+      
+      .title-register{
+        position: -ms-page;
+        left: 310px;
+      }
+      
+      .formulario-register{
+        display: flex;
+        margin-left: 10px;
+      }
+    }
+    
+    @media screen and (max-width:620px) {
+      .title{
+        position: -ms-page;
+        left: 160px;
+      }
+      
+      .android{
+       position: absolute;
+        left: 510px;
+      }
+      .menu{
+        position: absolute;
+        left: 326px;
+      }
+      
+      .file{
+        display: block;
+        margin-left: 80px;
+      }
+      
+       .icon-file{
+        display: flex;
+        margin-left: 210px;
+       }
+      
+      .image-about{
+       
+        width: 620px;
+        height: 500px;
+        
+      }
+      .title-about{
+        position: absolute;
+        left: 270px;
+      }
+      .text-one{
+        position: absolute;
+        left: 140px;
+      }
+      
+      h2{
+        position: absolute;
+        left: 270px;
+        top: 170%;
+      }
+      
+      .text-two{
+        position: absolute;
+        left: 130px;
+        top: 180%;
+        
+      }
+      
+      
+      .title-login{
+        position: -ms-page;
+        left: 210px;
+      
+      }
+      .formulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 110px;
+      
+      }
+      
+      .title-register{
+        position: -ms-page;
+        left: 210px;
+      }
+      
+      .formulario-register{
+        display: flex;
+        margin-left: 110px;
+        width: 400px;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      
+    
+    
+      #register {
+        position: relative;
+        left:-17px;
+      }
+      
+      #register input{
+        width: 300px;
+      }
+      
+    }
+    /* Estilos de la pantalla para pantallas moviles medianos  */
+    @media screen and (max-width:500px){
+      .title{
+        position: -ms-page;
+        left: 120px;
+      }
+      
+      .android{
+       position: absolute;
+        left: 390px;
+      }
+      .menu{
+        position: absolute;
+        left: 206px;
+      }
+      
+      .file{
+        display: block;
+        margin-left: 20px;
+      }
+      
+       .icon-file{
+        display: flex;
+        margin-left: 170px;
+       }
+      
+      .image-about{
+       
+        width: 500px;
+        height: 500px;
+        
+      }
+      .title-about{
+        position: absolute;
+        left: 220px;
+      }
+      .text-one{
+        position: absolute;
+        left: 80px;
+      }
+      
+      h2{
+        position: absolute;
+        left: 215px;
+        
+      }
+      
+      .text-two{
+        position: absolute;
+        left: 70px;
+        
+        
+      }
+      
+      
+      .title-login{
+        position: -ms-page;
+        left: 170px;
+      
+      }
+      .formulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 80px;
+      
+      }
+      
+      .title-register{
+        position: -ms-page;
+        left: 150px;
+      }
+      
+      .formulario-register{
+        display: flex;
+        margin-left: 40px;
+      
+        
+      }
+    }
+    /* Estilos de la pantalla para pantallas moviles pequeños  */
+    @media screen and (max-width:425px) {
+      .title{
+        position: -ms-page;
+        left: 100px;
+        font-size: 30px;
+      }
+      
+      .android{
+       position: absolute;
+        left: 320px;
+      }
+      .menu{
+        position: absolute;
+        left: 131px;
+      }
+      
+      .file{
+        display: block;
+        margin-left: 20px;
+      }
+    
+      #analizar{
+        display: flex;
+        margin-top: 30px;
+        margin-left: 140px;
+      }
+      
+       .icon-file{
+        display: flex;
+        margin-left: 110px;
+       }
+      
+      .image-about{
+       
+        width: 490px;
+        height: 500px;
+        
+      }
+      .title-about{
+        position: absolute;
+        left: 170px;
+      }
+      .text-one{
+        position: absolute;
+        left: 40px;
+      }
+      
+      h2{
+        position: absolute;
+        left: 170px;
+        
+      }
+      
+      .text-two{
+        position: absolute;
+        left: 30px;
+        
+        
+      }
+      
+      
+      .title-login{
+        position: -ms-page;
+        left: 130px;
+      
+      }
+      .formulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+      
+      }
+      
+      .title-register{
+        position: -ms-page;
+        left: 110px;
+      }
+      
+      .formulario-register{
+        display: flex;
+        margin-left: 10px;
+      
+        
+      }
+    }
+    /* Estilos de la pantalla para pantallas moviles pequeños  */
+    @media screen and (max-width:375px){
+      .title{
+        position: -ms-page;
+        left: 80px;
+        font-size: 30px;
+      }
+      
+      .android{
+       position: absolute;
+        left: 265px;
+      }
+      .menu{
+        position: absolute;
+        left: 81px;
+      }
+      
+      .file{
+        display: block;
+        margin-left: 10px;
+      }
+    
+     
+      
+       .icon-file{
+        display: flex;
+        margin-left: 90px;
+       }
+      
+      .image-about{
+       
+        width: 490px;
+        height: 500px;
+        
+      }
+      .title-about{
+        position: absolute;
+        left: 197px;
+      }
+      .text-one{
+        position: absolute;
+        left: 65px;
+      }
+      
+      h2{
+        position: absolute;
+        left: 199px;
+        
+      }
+      
+      .text-two{
+        position: absolute;
+        left: 55px;
+        
+        
+      }
+      
+      
+      .title-login{
+        position: -ms-page;
+        left: 100px;
+      
+      }
+      .formulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 8px;
+      
+      }
+      
+      .title-register{
+        position: -ms-page;
+        left: 80px;
+      }
+      
+      .formulario-register{
+        display: flex;
+        margin-left: 30px;
+        width: 300px;
+      
+        
+      }
+    
+      #register {
+        position: relative;
+        left:  -5px;
+      }
+      
+      #register input{
+        width: 260px;
+      }
+    }
+    /* Estilos de la pantalla para pantallas moviles pequeños  */
+    @media screen and (max-width:320px) {
+      .title{
+        position: -ms-page;
+        left: 50px;
+      
+      }
+      
+      .android{
+       position: absolute;
+        left: 259px;
+      }
+      .menu{
+        position: absolute;
+        left: 76px;
+      }
+    
+      .header{
+        width: 342px;
+      }
+      
+      .file{
+        display: block;
+        margin-left: 1px;
+      }
+    
+       .icon-file{
+        display: flex;
+        margin-left: 60px;
+       }
+       #analizar{
+        display: flex;
+    
+        margin-left: 110px;
+      }
+      
+      .image-about{
+       
+        width: 370px;
+        height: 500px;
+        
+      }
+      .title-about{
+        position: absolute;
+        left: 120px;
+      }
+      .text-one{
+        position: absolute;
+        left: -12px;
+      }
+      
+      h2{
+        position: absolute;
+        left: 120px;
+        
+      }
+      
+      .text-two{
+        position: absolute;
+        left: -19px;
+        
+        
+      }
+      
+      
+      .title-login{
+        position: -ms-page;
+        left: 80px;
+      
+      }
+      .formulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -8px;
+      
+      }
+      
+      .title-register{
+        position: -ms-page;
+        left: 60px;
+      }
+      
+      .formulario-register{
+        display: flex;
+        margin-left: 8px;
+        width: 300px;
+      
+        
+      }
+    
+      #register {
+        position: relative;
+        left:  -5px;
+      }
+      
+      #register input{
+        width: 260px;
+      }
+    }
+    
+    
