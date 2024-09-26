@@ -5,14 +5,26 @@
 }
 .profile{
     position: absolute;
-    right: 87%;
+    right: 80%;
     color: white;
     font-size: 25px;
     list-style: none;
 }
+
+.menu2{
+    display: flex;
+    position: static;
+    justify-content: space-between;
+    gap: 1.20rem;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 47px;
+    font-family: "Matemasie", sans-serif;
+    
+  }
 .image-profile{
     position: absolute;
-    right: 130px;
+    right: 220px;
     height: 50px;
 }
 .profile-text{
@@ -148,11 +160,16 @@
        left: 760px;
     }
 
+    .menu2{
+        display: flex;
+        margin-right: 130px;
+      }
+
     .form-config{
         display: flex;
         margin-left: 590px;
     }
-
+    
     
 
     .formulario-edit{
@@ -164,10 +181,10 @@
         position: absolute;
         left: 600px;
     }
-
+    
     .profile{
         position: relative;
-        right: 270px;
+        right: 220px;
     }
 }
 
@@ -183,6 +200,8 @@
         margin-left: 550px;
     }
 
+    
+
     .formulario-edit{
         position: absolute;
         left: 550px;
@@ -194,7 +213,7 @@
 
     .profile{
         position: relative;
-        right:  210px;
+        right:  150px;
     }
 }
 
@@ -221,11 +240,11 @@
 
     .image-profile{
         position: absolute;
-        right: 120px;
+        right: 200px;
     }
     .profile{
         position: relative;
-        right: 160px;
+        right: 100px;
     }
 }
 
@@ -236,16 +255,19 @@
        left: 590px;
     }
    
-
+    .menu2{
+        display: flex;
+        margin-left: 190px;
+      }
     .profile{
         position: absolute;
-        right: 79%;
+        right: 75%;
         
     }
 
     .image-profile{
         position: absolute;
-        right: 130px;
+        right: 190px;
         height: 50px;
     }
 
@@ -305,7 +327,10 @@
         display: flex;
         margin-left: 295px;
     }
-
+    .menu2{
+        display: flex;
+        margin-right: 200px;
+    }
     .formulario-edit{
         position: absolute;
         left: 295px;
@@ -317,7 +342,7 @@
 
     .profile{
         position: absolute;
-        right:  700px;
+        right:  650px;
     }
 }
 
@@ -343,6 +368,41 @@
                
         
     }
+
+    .menu2{
+        display: grid;
+        grid-template-columns: min-content;
+        position: absolute;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-style: solid;
+        left: 376px;
+        width: 234px;
+        height: 330px;
+        display: none;
+        background-color: rgb(44, 44, 44);
+        top: 78px;
+        z-index: 1;
+        
+       
+    
+       }
+      
+       .menu2 li {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        height: 110px;
+       }
+        
+        .android:hover + .menu{
+          display: block;
+        }
+          
+          
+          .menu2.active{
+            display: block;
+          }
    
     
 
@@ -352,7 +412,7 @@
 
     .profile{
         position: absolute;
-        right: 70%;
+        right: 60%;
        top: 30px;
         font-size: 25px;
         
@@ -384,7 +444,10 @@
     }  
 
     
-
+    .menu2{
+        position: absolute;
+        left: 344px
+    }
     .form-config{
         display: flex;
         margin-left: 260px;
@@ -412,10 +475,14 @@
     
     .profile{
         position: absolute;
-        right:  400px;
+        right:  340px;
     }
 
-    
+    .menu2{
+        position: absolute;
+        left: 196px;
+    }
+
 
     .form-config{
         display: flex;
@@ -445,10 +512,15 @@
       
       
     }  
+
+    .menu2{
+        position: absolute;
+        left: 76px;
+    }
     
     .profile{
         position: absolute;
-        right: 57%;
+        right: 50%;
         
     }
 
@@ -478,12 +550,17 @@
       
     }  
 
+    .menu2{
+        position: absolute;
+        left: 66px;
+    }
+
     .header{
         width: 490px;
     }
     .profile{
         position: relative;
-        right: 65px;
+        right: 40px;
         
     }
 
@@ -522,7 +599,7 @@
     }
     .profile{
         position: absolute;
-        right: 280px;
+        right: 220px;
     }
 
     .form-config{
@@ -567,9 +644,9 @@
       
     } 
 
-    .menu{
-        position: relative;
-        left: 37px;
+    .menu2{
+        position: absolute;
+        left: -54px;
         top: 69px;
     }
 
@@ -578,7 +655,10 @@
         left: 260px;
     }
     
-    
+    .image-profile{
+        position: absolute;
+        left: -59px;
+    }
 
     .header{
         width: 370px;
@@ -586,7 +666,7 @@
 
     .profile{
         position: absolute;
-        right: 170px;
+        right: 150px;
     }
 
     .form-config{

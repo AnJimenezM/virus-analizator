@@ -149,7 +149,7 @@ export const profile = async (req, res) =>{
     const userId = req.params.id;
 
     //Buscar al usuario en la BD y excluimos los datos que no queremos
-    const user = await User.findById(userId).select('-password -username -email -__v');
+    const user = await User.findById(userId);
 
     //verificar si el usuario no existe
     if(!user){

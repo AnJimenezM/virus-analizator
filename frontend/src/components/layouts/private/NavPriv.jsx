@@ -43,7 +43,7 @@ export const NavPriv = () => {
               )}
               </li> 
           <ul>
-            <div className={`menu ${menuVisible ? 'active': ''}`} >
+            <div className={`menu2 ${menuVisible ? 'active': ''}`} >
               
               <li className='desplegar'>
                 <Link className='navegation btn btn-warning' to='/perfil'>inicio</Link>
